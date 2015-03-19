@@ -25,14 +25,14 @@
 	        <taglib-location>/WEB-INF/tld/c.tld</taglib-location>
 	    </taglib>
 	</jsp-config> 
-
+    <servlet-mapping>
+		<servlet-name>jsp</servlet-name>
+		<url-pattern>/WEB-INF/jsp/*</url-pattern>
+	</servlet-mapping>
 	<servlet-mapping>
 		<servlet-name>dispatch</servlet-name>
 		<url-pattern>/*</url-pattern>
 	</servlet-mapping>
-	<servlet-mapping>
-		<servlet-name>jsp</servlet-name>
-		<url-pattern>/WEB-INF/jsp/*</url-pattern>
-	</servlet-mapping>
+	
 
 </web-app>  
